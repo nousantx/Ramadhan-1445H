@@ -15,4 +15,4 @@ Website sederhana menggunakan HTML serta [tenoxui](https://github.com/nousantx/t
 
 - HTML
 - [Google Material](https://fonts.google.com/icons) ( Icon )
-- [TenoxUI](https://github.com/nousantx/tenoxui) ( Style )
+- [TenoxUI](https://github.com/nousantx/tenoxui) v0.5.1 ( Style )
