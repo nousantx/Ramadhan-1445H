@@ -1,3 +1,5 @@
+// Darkmode toggler function (example)
+
 let darkMode = true;
 
 function toggleDarkMode() {
