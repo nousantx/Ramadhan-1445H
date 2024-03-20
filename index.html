@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ramadhan 1445H</title>
+    <meta name="description" content="Ramadhan 1445H Website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Sawarabi+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/icons.css" />
+    <style>
+      :root {
+        /* Primary: Green Priestess */
+        --primary-100: #f2fff9;
+        --primary-200: #bafedd;
+        --primary-300: #81fab7;
+        --primary-400: #47ef89;
+        --primary-500: #11d954;
+        --primary-600: #06ac34;
+        --primary-700: #01801d;
+        --primary-800: #00530d;
+        --primary-900: #002604;
+
+        /* Accent: Leery Lemon */
+        --accent-100: #fefff2;
+        --accent-200: #feffbd;
+        --accent-300: #fdf786;
+        --accent-400: #f9e650;
+        --accent-500: #f0cc1a;
+        --accent-600: #bd9509;
+        --accent-700: #8b6402;
+        --accent-800: #593a00;
+        --accent-900: #261700;
+
+        /* Neutral */
+        --neutral-100: #fafcfb;
+        --neutral-200: #e9edeb;
+        --neutral-300: #d8ddda;
+        --neutral-400: #c8cdca;
+        --neutral-500: #b7bdb9;
+        --neutral-600: #909792;
+        --neutral-700: #6a716c;
+        --neutral-800: #464c47;
+        --neutral-900: #222623;
+
+        /* More */
+        --space-between: space-between;
+        --flex-start: flex-start;
+        --flex-end: flex-end;
+      }
+      * {
+        font-family: "Sawarabi Gothic", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+      }
+      .amiri {
+        font-family: "Amiri", serif;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/tenoxui@0.5.1"></script>
+  </head>
+  <body class="bg-primary-900 text-accent-300">
+    <nav class="bg-primary-900 navbar">
+      <!-- <header onclick="location.reload()" class="cursor-pointer"> -->
+      <header onclick="location.reload()" class="cursor-pointer">
+        <h1 class="fs-1em text-accent-300">Ramadhan 1445H</h1>
+      </header>
+      <ul class="d-flex gap-1rem">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#kegiatan">Kegiatan</a></li>
+        <li><a href="#jadwal">Jadwal</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="home" class="w-100% h-100vh center fd-column">
+        <header class="position-relative ta-center">
+          <p class="fs-12px">Say hello to</p>
+          <h1 class="fs-4em text-accent-500 mt--1rem mb--2rem amiri">
+            Ramadhan
+          </h1>
+          <span class="ta-center fs-14px w-100% d-block amiri">- ١٤٤٥ -</span>
+          <span
+            class="float-icon text-accent-500 ms-round t-1rem l--1rem fs-2em opa-0.3 rt-20deg"
+            >nightlight</span
+          >
+          <span
+            class="float-icon text-accent-500 ms-round r--1rem b-1rem fs-2.4em rt-20deg opa-0.3"
+            >brightness_2</span
+          >
+        </header>
+        <p class="ta-center w-mx-600px fs-18px amiri mt-2rem text-accent-200">
+          <i class="amiri">"Ayo Puasa, Kapan lagi bisa panen pahala kan"</i>
+        </p>
+        <div
+          class="position-fixed b-0 r-0 p-1rem bg-primary-800 radius-tl-1rem center gap-6px"
+        >
+          <span class="ms-line fs-14px">calendar_month</span>
+          <span id="date" class="fs-12px fw-500"></span>
+        </div>
+      </section>
+      <div
+        class="bg-primary-800 ph-10vw pv-2rem center w-full ta-center radius-top-1rem"
+      >
+        <p class="fs-14px w-mx-600px">
+          <i class="amiri">
+            "Puasa bukan tentang menahan haus dan lapar. Tapi juga kegiatan
+            untuk meningkatkan kesabaran, ketakwaan, serta kesadaran terhadap
+            kesusahan orang lain."
+          </i>
+        </p>
+      </div>
+      <section
+        id="kegiatan"
+        class="center bg-accent-200 text-primary-800 fd-column"
+      >
+        <header class="ta-center">
+          <h1 class="amiri fs-2em">Kegiatan</h1>
+          <p class="mt--1rem fs-14px text-primary-700">
+            Kegiatan - kegiatan yang bisa dilakukan dibulan puasa
+          </p>
+        </header>
+        <div
+          class="w-full center gap-1rem fx-wrap-wrap ai-stretch mt-2rem text-accent-300"
+        >
+          <div class="kegiatan-item">
+            <span class="ms-round fs-3rem">restaurant</span>
+            <h2 class="fs-1.3rem mt-8px">Sahur & Berbuka</h2>
+          </div>
+          <div class="kegiatan-item">
+            <span class="ms-round fs-3rem">menu_book</span>
+            <h2 class="fs-1.3rem mt-8px">Membaca Al-Qur'an</h2>
+          </div>
+          <div class="kegiatan-item">
+            <span class="ms-round fs-3rem">mosque</span>
+            <h2 class="fs-1.3rem mt-8px">Sholat Tarawih</h2>
+          </div>
+          <div class="kegiatan-item">
+            <span class="ms-round fs-3rem">more_vert</span>
+            <h2 class="fs-1.3rem mt-8px">Dzikir & Sholawat</h2>
+          </div>
+          <div class="kegiatan-item">
+            <span class="ms-round fs-3rem">hotel</span>
+            <h2 class="fs-1.3rem mt-8px">Tidur Secukupnya</h2>
+          </div>
+          <div class="kegiatan-item">
+            <span class="ms-round fs-3rem">sentiment_dissatisfied</span>
+            <h2 class="fs-1.3rem mt-8px">Menahan Amarah</h2>
+          </div>
+          <div class="kegiatan-item">
+            <span class="ms-round fs-3rem">voice_selection</span>
+            <h2 class="fs-1.3rem mt-8px">Menjaga Lisan</h2>
+          </div>
+          <div class="kegiatan-item">
+            <span class="ms-round fs-3rem">directions_run</span>
+            <h2 class="fs-1.3rem mt-8px">Olahraga Ringan</h2>
+          </div>
+        </div>
+        <p class="mt-2rem fs-14px text-primary-700">
+          Puasa tapi pacaran? Rugi dong
+        </p>
+        <script>
+          makeStyle(
+            ".kegiatan-item",
+            "fx-250px bg-[primary-900] br-1rem p-2rem display-flex flex-parent-center fd-column"
+          );
+        </script>
+      </section>
+      <div
+        class="bg-primary-800 ph-10vw pv-2rem center w-full ta-center radius-bottom-1rem"
+      >
+        <p class="fs-14px w-mx-600px">
+          <i class="amiri">
+            "Rukun islam ke-2 adalah rukun yang paling banyak dilalaikan oleh
+            umat islam"
+          </i>
+        </p>
+      </div>
+      <section id="jadwal" class="fd-column center">
+        <header class="ta-center">
+          <h1 class="amiri fs-2em">Jadwal</h1>
+          <p class="mt--1rem fs-14px">Ayo buat kegiatan mu lebih efisien.</p>
+        </header>
+
+        <div class="w-full w-mx-700px mt-2rem center fx-wrap-wrap gap-2rem">
+          <div class="fx-300px center ai-start fd-column gap-2rem">
+            <div class="jadwal-wrapper">
+              <div class="bubble-wrapper">
+                <span class="mi-round bubble-icon text-primary-800"
+                  >restaurant</span
+                >
+                <div class="bubble-connector t-50%"></div>
+              </div>
+              <header>
+                <h2>Sahur</h2>
+                <p>03.00</p>
+              </header>
+            </div>
+            <div class="jadwal-wrapper">
+              <div class="bubble-wrapper">
+                <span class="mi-round bubble-icon text-primary-800"
+                  >restaurant_menu</span
+                >
+                <div class="bubble-connector"></div>
+              </div>
+              <header>
+                <h2>Imsak</h2>
+                <p>04.10</p>
+              </header>
+            </div>
+            <div class="jadwal-wrapper">
+              <div class="bubble-wrapper">
+                <span class="mi-round bubble-icon text-primary-800"
+                  >mosque</span
+                >
+                <div class="bubble-connector"></div>
+              </div>
+              <header>
+                <h2>Sholat Subuh</h2>
+                <p>04.20</p>
+              </header>
+            </div>
+            <div class="jadwal-wrapper">
+              <div class="bubble-wrapper">
+                <span class="mi-round bubble-icon text-primary-800"
+                  >menu_book</span
+                >
+                <div class="bubble-connector"></div>
+              </div>
+              <header>
+                <h2>Membaca Al-Qur'an</h2>
+                <p>04.30</p>
+              </header>
+            </div>
+            <div class="jadwal-wrapper">
+              <div class="bubble-wrapper">
+                <span class="mi-round bubble-icon text-primary-800">hotel</span>
+                <div class="bubble-connector"></div>
+              </div>
+              <header>
+                <h2>Tidur (Tidak Dianjurkan)</h2>
+                <p>05.00</p>
+              </header>
+            </div>
+            <div class="jadwal-wrapper">
+              <div class="bubble-wrapper">
+                <span class="mi-round bubble-icon text-primary-800"
+                  >directions_run</span
+                >
+                <div class="bubble-connector"></div>
+              </div>
+              <header>
+                <h2>Mulai Beraktivitas</h2>
+                <p>06.00</p>
+              </header>
+            </div>
+          </div>
+          <div class="fx-300px center ai-start fd-column gap-2rem">
+            <div class="jadwal-wrapper">
+              <div class="bubble-wrapper">
+                <span class="mi-round bubble-icon text-primary-800"
+                  >mosque</span
+                >
+                <div class="bubble-connector"></div>
+              </div>
+              <header>
+                <h2>Sholat Duhur</h2>
+                <p>11.40</p>
+              </header>
+            </div>
+            <div class="jadwal-wrapper">
+              <div class="bubble-wrapper">
+                <span class="mi-round bubble-icon text-primary-800">hotel</span>
+                <div class="bubble-connector"></div>
+              </div>
+              <header>
+                <h2>Tidur Siang</h2>
+                <p>12.30</p>
+              </header>
+            </div>
+            <div class="jadwal-wrapper">
+              <div class="bubble-wrapper">
+                <span class="mi-round bubble-icon text-primary-800"
+                  >mosque</span
+                >
+                <div class="bubble-connector"></div>
+              </div>
+              <header>
+                <h2>Sholat Ashar</h2>
+                <p>15.00</p>
+              </header>
+            </div>
+            <div class="jadwal-wrapper">
+              <div class="bubble-wrapper">
+                <span class="mi-round bubble-icon text-primary-800"
+                  >menu_book</span
+                >
+                <div class="bubble-connector"></div>
+              </div>
+              <header>
+                <h2>Membaca Al-Qur'an</h2>
+                <p>15.30</p>
+              </header>
+            </div>
+            <div class="jadwal-wrapper">
+              <div class="bubble-wrapper">
+                <span class="mi-round bubble-icon text-primary-800"
+                  >restaurant</span
+                >
+                <div class="bubble-connector"></div>
+              </div>
+              <header>
+                <h2>Sholat Maghrib & Berbuka</h2>
+                <p>17.50</p>
+              </header>
+            </div>
+            <div class="jadwal-wrapper">
+              <div class="bubble-wrapper">
+                <span class="mi-round bubble-icon text-primary-800"
+                  >mosque</span
+                >
+                <div class="bubble-connector b-50%"></div>
+              </div>
+              <header>
+                <h2>Sholat Isya` & Tarawih</h2>
+                <p>17.50</p>
+              </header>
+            </div>
+          </div>
+          <!-- End jadwal bubble -->
+        </div>
+        <!-- Jadwal styles -->
+        <script>
+          makeStyles({
+            ".jadwal-wrapper":
+              "display-flex jc-[flex-start] ai-center gap-1rem",
+            ".bubble-wrapper":
+              "bg-[accent-300] box-2rem br-50% display-flex flex-parent-center position-relative",
+            ".bubble-icon": "fs-1rem",
+            ".bubble-connector":
+              "w-2px bg-[accent-300] h-250% position-absolute z--99 br-1rem",
+            ".jadwal-wrapper header h2": "fs-18px fw-600",
+            ".jadwal-wrapper header p": "fs-14px opa-0.7",
+          });
+        </script>
+      </section>
+    </main>
+    <footer class="center fd-column bg-primary-800 radius-top-1rem">
+      <header class="ta-center">
+        <h1>Ramadhan 1445H</h1>
+        <p class="w-mx-600px">
+          <i class="amiri">
+            Selamat menunaikan ibadah puasa, semoga kita bisa bertemu lagi
+            dengan ramadhan tahun depan.
+          </i>
+        </p>
+      </header>
+      <p class="fs-12px mt-2rem w-full ta-left pb-1rem">
+        &copy; 2024 NOuSantx. All Rights Reserved.
+      </p>
+    </footer>
+
+    <!-- Script -->
+    <script>
+      const styleConfig = {
+        props: {
+          scroll: ["scrollBehavior"],
+          d: ["display"],
+          tdc: ["textDecorationColor"],
+        },
+        color: {
+          // Color
+          ".text-neutral-100": "tc-[neutral-100]",
+          ".text-neutral-200": "tc-[neutral-200]",
+          ".text-neutral-300": "tc-[neutral-300]",
+          ".text-neutral-400": "tc-[neutral-400]",
+          ".text-neutral-500": "tc-[neutral-500]",
+          ".text-neutral-600": "tc-[neutral-600]",
+          ".text-neutral-700": "tc-[neutral-700]",
+          ".text-neutral-800": "tc-[neutral-800]",
+          ".text-neutral-900": "tc-[neutral-900]",
+          ".text-neutral-100": "tc-[neutral-100]",
+          ".text-primary-200": "tc-[primary-200]",
+          ".text-primary-300": "tc-[primary-300]",
+          ".text-primary-400": "tc-[primary-400]",
+          ".text-primary-500": "tc-[primary-500]",
+          ".text-primary-600": "tc-[primary-600]",
+          ".text-primary-700": "tc-[primary-700]",
+          ".text-primary-800": "tc-[primary-800]",
+          ".text-primary-900": "tc-[primary-900]",
+          ".text-accent-100": "tc-[accent-100]",
+          ".text-accent-200": "tc-[accent-200]",
+          ".text-accent-300": "tc-[accent-300]",
+          ".text-accent-400": "tc-[accent-400]",
+          ".text-accent-500": "tc-[accent-500]",
+          ".text-accent-600": "tc-[accent-600]",
+          ".text-accent-700": "tc-[accent-700]",
+          ".text-accent-800": "tc-[accent-800]",
+          ".text-accent-900": "tc-[accent-900]",
+          // Background
+          ".bg-neutral-100": "bg-[neutral-100]",
+          ".bg-neutral-200": "bg-[neutral-200]",
+          ".bg-neutral-300": "bg-[neutral-300]",
+          ".bg-neutral-400": "bg-[neutral-400]",
+          ".bg-neutral-500": "bg-[neutral-500]",
+          ".bg-neutral-600": "bg-[neutral-600]",
+          ".bg-neutral-700": "bg-[neutral-700]",
+          ".bg-neutral-800": "bg-[neutral-800]",
+          ".bg-neutral-900": "bg-[neutral-900]",
+          ".bg-primary-100": "bg-[primary-100]",
+          ".bg-primary-200": "bg-[primary-200]",
+          ".bg-primary-300": "bg-[primary-300]",
+          ".bg-primary-400": "bg-[primary-400]",
+          ".bg-primary-500": "bg-[primary-500]",
+          ".bg-primary-600": "bg-[primary-600]",
+          ".bg-primary-700": "bg-[primary-700]",
+          ".bg-primary-800": "bg-[primary-800]",
+          ".bg-primary-900": "bg-[primary-900]",
+          ".bg-accent-100": "bg-[accent-100]",
+          ".bg-accent-200": "bg-[accent-200]",
+          ".bg-accent-300": "bg-[accent-300]",
+          ".bg-accent-400": "bg-[accent-400]",
+          ".bg-accent-500": "bg-[accent-500]",
+          ".bg-accent-600": "bg-[accent-600]",
+          ".bg-accent-700": "bg-[accent-700]",
+          ".bg-accent-800": "bg-[accent-800]",
+          ".bg-accent-900": "bg-[accent-900]",
+        },
+        styles: {
+          html: "scroll-smooth",
+          a: "tc-[accent-300] tdc-[primary-400]",
+          p: "tc-[accent-300]",
+          main: "w-100% h-mn-100vh display-flex flex-parent-center ai-start fd-column",
+          section: "w-100% h-mn-100vh pv-4rem ph-10vw",
+          footer: "w-100% pt-2rem ph-10vw fs-14px",
+          ".navbar":
+            "display-flex flex-parent-center jc-[space-between] position-fixed t-0 r-0 l-0 pv-1rem ph-10vw z-1000",
+          ".center": "display-flex flex-parent-center",
+          ".flex-start": "display-flex flex-parent-center ai-[flex-start]",
+          ".start": "display-flex flex-parent-[flex-start]",
+          ".end": "display-flex flex-parent-[flex-end]",
+          ".w-full": "w-100%",
+          ".relative": "position-relative",
+          ".absolute, .float-icon": "position-absolute",
+        },
+      };
+
+      defineProps(styleConfig.props);
+      makeStyles(styleConfig.styles);
+      makeStyles(styleConfig.color);
+      tenoxui();
+    </script>
+    <!-- Waktu -->
+    <script>
+      function waktu() {
+        const now = new Date();
+        const format = now.toLocaleString("en-US", {
+          day: "2-digit",
+          month: "short",
+          year: "numeric",
+          hour: "2-digit",
+          minute: "2-digit",
+          second: "2-digit",
+          hour12: false,
+        });
+        document.getElementById("date").textContent = format;
+      }
+      setInterval(waktu, 1000);
+      waktu();
+    </script>
+    <!-- <script src="/index.js"></script> -->
+  </body>
+</html>
